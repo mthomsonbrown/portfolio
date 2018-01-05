@@ -4,15 +4,21 @@
     <mat-toolbar>
       <span>{{title}}.</span>
       <span class="fill-space"></span>
-      <button mat-button color="accent">
-        About
-      </button>
-      <button mat-button color="accent">
-        Portfolio
-      </button>
-      <button mat-button color="accent">
-        Contact
-      </button>
+      <a routerLink="/home">
+        <button mat-button color="accent">
+          About
+        </button>
+      </a>
+      <a routerLink="/portfolio">
+        <button mat-button color="accent">
+          Portfolio
+        </button>
+      </a>
+      <a routerLink="#">
+        <button mat-button color="accent">
+          Contact
+        </button>
+      </a>
     </mat-toolbar>
   </header>
 </div>
