@@ -8,3 +8,22 @@
   flex-direction: column;
   height: 100%;
 }
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  z-index:999;
+}
+
+/*
+  TODO: Fix this
+  A fluid toolbar causes fullscale content to appear below the toolbar div,
+  which causes it to scroll off screen even if there's no data to present.
+  Making the toolbar fixed causes the next div to apear behind it, obscuring
+  some of the data. I'm not quickly finding a good way of fixing that using
+  the material framework, so I'm just positioning all view content at a fixed
+  height below the toolbar. On the plus side, this creates a global margin.
+ */
+.ocd-hack {
+  margin-top: 7em;
+}

@@ -1,7 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <header>
-    <mat-toolbar>
+    <mat-toolbar class="fixed-header">
       <span>{{title}}.</span>
       <span class="fill-space"></span>
       <a routerLink="/home">
@@ -24,6 +24,8 @@
 </div>
 <body>
   <div class="main-container">
-    <router-outlet></router-outlet>
+    <div class="ocd-hack">
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </body>

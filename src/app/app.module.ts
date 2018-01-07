@@ -6,6 +6,9 @@ import { AppRoutingModule } from './core/app-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
+// Project imports
+import { ProjectPortfolioComponent } from './components/projects/portfolio/portfolio.component';
+
 import {
   MatToolbarModule,
   MatButtonModule,
@@ -17,7 +20,8 @@ import {
   declarations: [
     AppComponent,
     HomeComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ProjectPortfolioComponent
   ],
   imports: [
     AppRoutingModule,
