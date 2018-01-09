@@ -2,3 +2,37 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
+
+.container {
+  max-width: 50%;
+  margin: 40px auto;
+}
+
+.hr-text {
+  // background-color: #fcfcfa;
+  font-size: 2em;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  &:before {
+    content:'';
+    display: inline-block;
+    width: 100%;
+    height: relative;
+    margin-left: -102%;
+    position: absolute;
+    bottom: 50%;
+    border-bottom: 2px solid #000;
+  }
+  &:after {
+    content:'';
+    display:inline-block;
+    width: 100%;
+    margin-left: 2%;
+    height: relative;
+    position: absolute;
+    bottom: 50%;
+    border-bottom: 2px solid #000;
+  }
+}
