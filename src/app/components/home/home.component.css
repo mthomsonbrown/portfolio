@@ -9,3 +9,7 @@
     content: "";
     display: table;
 }
+
+.with-zazz {
+    font-family: 'Syncopate', sans-serif;
+}
