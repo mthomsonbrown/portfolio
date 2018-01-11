@@ -2,11 +2,13 @@
   flex: 1 1 auto;
 }
 
-.main-container {
+html, body {
   background-image: url(../../assets/cierra-klatt-93124.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  overflow: auto;
 }
 
 .fixed-header {
