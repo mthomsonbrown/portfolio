@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './core/app.component';
 import { AppRoutingModule } from './core/app-routing.module';
 import { HomeComponent } from './components/home/home.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 // Project imports
@@ -22,6 +23,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   declarations: [
     AppComponent,
     HomeComponent,
+    ContactComponent,
     PortfolioComponent,
     ProjectPortfolioComponent
   ],
