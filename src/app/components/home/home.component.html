@@ -1,21 +1,37 @@
-<div class="row">
-  <div class="column">
+<div fxLayout.lt-md='column-reverse' fxLayout='row'>
+  <div fxLayout='column'>
+    <mat-card>
+      <h1 class='with-zazz'>Open During Construction</h1>
+    </mat-card>
     <mat-card>
       <h1 class='with-zazz'>Hello,</h1>
       <p>
-        Please feel free to click around. The page is under some definite
-        construction, but if you want to know more about me, here are some text
-        strings that you can copy and paste into your browser's address bar to
-        learn more (not tested on internet explorer):
-        <br />
-        <br />
-        https://github.com/mthomsonbrown
-        <br />
-        https://www.linkedin.com/in/mthomsonbrown/
+        I'm an SDET/Validation Manager that dabbles in several different
+        application stacks.
+      </p>
+      <ul>
+        <li>
+          I've been playing off and on with Android for about six years, and am
+          currently digging into the new Android Architecture Components.
+        </li>
+        <li>
+          Through sketching up backends for mobile applications, I've done full
+          stack work in Rails, and am currently branching into Node frameworks,
+          namely Angular/Express/Mongo for now.
+        </li>
+        <li>
+          I have an academic background in embedded systems, and have built some
+          simple robots using Arduino. I'm interested in ML, CV, and GIS, and
+          plan to incorporate those elements into some hobby applications.
+        </li>
+      </ul>
+      <p>
+        If you'd like to learn more or send me a message, please check out my
+        <a routerLink='/contact'>contact</a> page.
       </p>
     </mat-card>
   </div>
-  <div class="column">
-    <img class="center" src="../../../assets/me_lightening.jpg" />
+  <div class='img-container' align='center'>
+    <img src="../../../assets/me_lightening.jpg" />
   </div>
 </div>

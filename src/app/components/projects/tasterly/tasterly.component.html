@@ -1,0 +1,66 @@
+<div fxLayout='column'>
+  <mat-card>
+    <mat-card-title>Tasterly</mat-card-title>
+    <mat-card-content>
+      <p>
+        One of my older projects, but one I keep coming back to. The idea is to
+        allow users to input flavor profiles for different beers, and then to
+        use that data to recommend other beers to try, let them compare their
+        observations to professionals, all kinds of data type things.
+      </p>
+    </mat-card-content>
+  </mat-card>
+  <div fxLayout.lt-md='column' fxLayout='row'>
+
+    <mat-card class='module'>
+      <mat-card-title>Rails</mat-card-title>
+      <mat-card-content>
+        I cringe at the idea of trying to host this again. This handled
+        authentication, user input, and supported a table to link friends to
+        each other, but with the time this has been sitting idle, I
+        can only imagine the kind of updates required to get it back online.
+      </mat-card-content>
+      <mat-card-actions>
+        <a href='https://github.com/mthomsonbrown/tasterly' target='_blank'>
+          <button mat-raised-button color='accent'>Github</button>
+        </a>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class='module'>
+      <mat-card-title>Android Old</mat-card-title>
+      <mat-card-content>
+        This application actually had a lot of functionality, but the UI was
+        not great, and to this day, I'm not sure how to fix it. Entering a
+        flavor profile using a standard tasting wheel will take 300+ different
+        scalars, and to keep a user engaged during that process is definitely a
+        unique UI requirement. I'm still keeping it around to harvest parts,
+        such as the circle graph I built for profile vizualization.
+      </mat-card-content>
+      <mat-card-actions>
+        <a href='https://github.com/mthomsonbrown/tasterly_android_old'
+           target='_blank'>
+          <button mat-raised-button color='accent'>Github</button>
+        </a>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class='module'>
+      <mat-card-title>Android</mat-card-title>
+      <mat-card-content>
+        I scrapped the previous iteration of this app, and to be fair I'll
+        probably scrap this one too. I tried to address the taxing user input
+        issue using a graphical interface, but there's so much input to deal
+        with, it's still too cumbersome for a random person to deal with. I've
+        thought about using tags, and I might still go that route, but will
+        most likely rewrite this to use Android Architecture Components.
+      </mat-card-content>
+      <mat-card-actions>
+        <a href='https://github.com/mthomsonbrown/tasterly_android'
+           target='_blank'>
+          <button mat-raised-button color='accent'>Github</button>
+        </a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

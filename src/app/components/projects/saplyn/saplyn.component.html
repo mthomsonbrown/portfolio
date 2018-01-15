@@ -1,0 +1,63 @@
+<div fxLayout='column'>
+  <mat-card>
+    <mat-card-title>Saplyn</mat-card-title>
+    <mat-card-content>
+      <p>
+        My newest pet project. I often find myself wanting to track data for some
+        random occurrence in life. I'll search the app store and find
+        activity-specific options that push the user down some path defined by
+        the developer that may or may not line up with my goals. On
+        top of that, as separate applications, there's no implicit synchronization
+        between data sets.  Enter Saplyn, a place to record generic data.
+      </p>
+    </mat-card-content>
+  </mat-card>
+  <div fxLayout.lt-md='column' fxLayout='row'>
+
+    <mat-card class='module'>
+      <mat-card-title>Rails</mat-card-title>
+      <mat-card-content>
+        This is the current backend, but I'm thinking of changing over to some
+        flavor of a Node stack. There aren't that many features right now
+        beyond authentication, and Node seems like the way to go these days.
+      </mat-card-content>
+      <mat-card-actions>
+        <a href='https://github.com/mthomsonbrown/saplyn' target='_blank'>
+          <button mat-raised-button color='accent'>Github</button>
+        </a>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class='module'>
+      <mat-card-title>Android Old</mat-card-title>
+      <mat-card-content>
+        This was the first stab. This is basically just an authentication flow
+        talking to the Rails backend, and I will probably get rid of it
+        (merge it?) after I incorporate the functionality into the new
+        application.
+      </mat-card-content>
+      <mat-card-actions>
+        <a href='https://github.com/mthomsonbrown/saplyn_android'
+           target='_blank'>
+          <button mat-raised-button color='accent'>Github</button>
+        </a>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class='module'>
+      <mat-card-title>Android Architecture Components</mat-card-title>
+      <mat-card-content>
+        This is what I'm currently working on.  After taking some time away
+        from Android development, I've found the newly added architecture
+        guides and components, and am really excited to work with the new
+        features.
+      </mat-card-content>
+      <mat-card-actions>
+        <a href='https://github.com/mthomsonbrown/saplyn_android_arch'
+           target='_blank'>
+          <button mat-raised-button color='accent'>Github</button>
+        </a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

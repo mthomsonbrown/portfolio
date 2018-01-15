@@ -1,15 +1,20 @@
-.column {
-    float: left;
-    width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    clear: both;
-    content: "";
-    display: table;
+.container {
+  display: flex;
 }
 
 .with-zazz {
     font-family: 'Syncopate', sans-serif;
+}
+
+.mat-card {
+  height: 100%;
+  margin-bottom: 2em;
+}
+
+.img-container {
+  margin-right: 3em;
+}
+
+li {
+  margin: 10px 0;
 }

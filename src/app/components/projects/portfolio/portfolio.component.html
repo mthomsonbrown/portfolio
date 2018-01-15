@@ -1,14 +1,33 @@
-<mat-card class="portfolio-card">
-  <h1 align="center">
-    A portfolio entry for my portfolio's portfolio...
-  </h1>
-  <img class="header-image" src="../../../../assets/project_portfolio.png"/>
-  <mat-card>
+<mat-card>
+  <mat-card-title>
+    This Very Portfolio
+  </mat-card-title>
+  <img mat-card-image src="../../../../assets/project_portfolio.png"/>
+  <mat-card-content>
     <p>
-      Angular might be a little too large for this project, but I decided to use
-      it anyway, because I want to explore the front-end stack (specifically
-      Angular Material) a little further. There are some things I miss from
-      Bootstrap, but I think that just means I need to learn more CSS.
+      Everyone needs a portfolio!  There's a discrepancy between the things I
+      tinker with at home and the work I've done on the job, so I thought it
+      would be good to have a place to showcase some of the avenues I've
+      explored.
     </p>
-  </mat-card>
+    <ul>
+      <li>
+        I chose Angular for this project so that I have the option to add
+        some dynamic content later on.
+      </li>
+      <li>
+        I'm using Angular Material as the UI framework. It's a good framework,
+        but I keep thinking things would be more straight-forward with
+        Bootstrap. I'm sticking with it for a bit anyway. I assume my
+        preference for Bootstrap is due to my lack of experience with
+        vanilla html/css. Still I think Bootstrap was more responsive out of
+        the box.
+      </li>
+    </ul>
+  </mat-card-content>
+  <mat-card-actions>
+    <a href='https://github.com/mthomsonbrown/portfolio' target='_blank'>
+      <button mat-raised-button color='accent'>Github</button>
+    </a>
+  </mat-card-actions>
 </mat-card>
